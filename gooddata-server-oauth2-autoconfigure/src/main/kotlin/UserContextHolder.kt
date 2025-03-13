@@ -63,6 +63,7 @@ fun interface ReactorUserContextProvider {
         userName: String?,
         tokenId: String?,
         authMethod: AuthMethod?,
+        accessToken: String?,
     ): ContextView
 }
 
